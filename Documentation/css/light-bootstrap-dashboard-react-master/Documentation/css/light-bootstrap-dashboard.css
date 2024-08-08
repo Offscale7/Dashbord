@@ -1836,68 +1836,40 @@ body > .navbar-collapse[data-color="purple"]:after {
     .card .alert.alert-with-icon {
       padding-left: 65px; }
 
-      .card-user .image {
-        height: 110px;
-        background-color: #FADBD8; /* Fond rouge doux */
-      }
-      
-      .card-user .image-plain {
-        height: 0;
-        margin-top: 110px;
-      }
-      
-      .card-user .author {
-        text-align: center;
-        text-transform: none;
-        margin-top: -70px;
-        color: #FFFFFF; /* Texte blanc */
-      }
-      
-      .card-user .avatar {
-        width: 124px;
-        height: 124px;
-        border: 5px solid #F8F9F9; /* Bordure blanc cassé */
-        position: relative;
-        margin-bottom: 15px;
-      }
-      .card-user .avatar.border-gray {
-        border-color: #E74C3C; /* Bordure rouge plus doux */
-      }
-      
-      .card-user .title {
-        line-height: 24px;
-        color: #F8F9F9; /* Texte blanc cassé */
-      }
-      
-      .card-user .content {
-        min-height: 240px;
-        background-color: #E74C3C; /* Fond rouge plus doux */
-        color: #F8F9F9; /* Texte blanc cassé */
-      }
-      
-      .card-user .footer,
-      .card-price .footer {
-        padding: 5px 15px 10px;
-        background-color: #E74C3C; /* Fond rouge plus doux */
-        color: #F8F9F9; /* Texte blanc cassé */
-      }
-      
-      .card-user hr,
-      .card-price hr {
-        margin: 5px 15px;
-        border-color: #F8F9F9; /* Bordure blanc cassé */
-      }
-      
-      .card-user .button-container .btn-simple {
-        color: #F8F9F9; /* Texte blanc cassé */
-        background-color: #E74C3C; /* Fond rouge plus doux */
-      }
-      
-      .card-user .button-container .btn-simple.btn-icon i {
-        color: #F8F9F9; /* Icônes blanc cassé */
-      }
-      
-      
+.card-user .image {
+  height: 110px; }
+
+.card-user .image-plain {
+  height: 0;
+  margin-top: 110px; }
+
+.card-user .author {
+  text-align: center;
+  text-transform: none;
+  margin-top: -70px; }
+
+.card-user .avatar {
+  width: 124px;
+  height: 124px;
+  border: 5px solid #FFFFFF;
+  position: relative;
+  margin-bottom: 15px; }
+  .card-user .avatar.border-gray {
+    border-color: #EEEEEE; }
+
+.card-user .title {
+  line-height: 24px; }
+
+.card-user .content {
+  min-height: 240px; }
+
+.card-user .footer,
+.card-price .footer {
+  padding: 5px 15px 10px; }
+
+.card-user hr,
+.card-price hr {
+  margin: 5px 15px; }
 
 .card-plain {
   background-color: transparent;
