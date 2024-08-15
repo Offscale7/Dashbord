@@ -1,161 +1,167 @@
-import React from "react";
+// import React, { useState, useEffect } from "react";
+// import { Button, Card, Table, Container, Row, Col } from "react-bootstrap";
 
-// react-bootstrap components
-import {
-  Badge,
-  Button,
-  Card,
-  Navbar,
-  Nav,
-  Table,
-  Container,
-  Row,
-  Col,
-} from "react-bootstrap";
+// function TableList() {
+//   const [members, setMembers] = useState([]);
+//   const [currentPage, setCurrentPage] = useState(1);
+//   const [paginatedMembers, setPaginatedMembers] = useState([]);
+//   const membersPerPage = 10;
 
-function TableList() {
-  return (
-    <>
-      <Container fluid>
-        <Row>
-          <Col md="12">
-            <Card className="strpied-tabled-with-hover">
-              <Card.Header>
-                <Card.Title as="h4">Striped Table with Hover</Card.Title>
-                <p className="card-category">
-                  Here is a subtitle for this table
-                </p>
-              </Card.Header>
-              <Card.Body className="table-full-width table-responsive px-0">
-                <Table className="table-hover table-striped">
-                  <thead>
-                    <tr>
-                      <th className="border-0">ID</th>
-                      <th className="border-0">Name</th>
-                      <th className="border-0">Salary</th>
-                      <th className="border-0">Country</th>
-                      <th className="border-0">City</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Dakota Rice</td>
-                      <td>$36,738</td>
-                      <td>Niger</td>
-                      <td>Oud-Turnhout</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Minerva Hooper</td>
-                      <td>$23,789</td>
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Sage Rodriguez</td>
-                      <td>$56,142</td>
-                      <td>Netherlands</td>
-                      <td>Baileux</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Philip Chaney</td>
-                      <td>$38,735</td>
-                      <td>Korea, South</td>
-                      <td>Overland Park</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Doris Greene</td>
-                      <td>$63,542</td>
-                      <td>Malawi</td>
-                      <td>Feldkirchen in Kärnten</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Mason Porter</td>
-                      <td>$78,615</td>
-                      <td>Chile</td>
-                      <td>Gloucester</td>
-                    </tr>
-                  </tbody>
-                </Table>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col md="12">
-            <Card className="card-plain table-plain-bg">
-              <Card.Header>
-                <Card.Title as="h4">Table on Plain Background</Card.Title>
-                <p className="card-category">
-                  Here is a subtitle for this table
-                </p>
-              </Card.Header>
-              <Card.Body className="table-full-width table-responsive px-0">
-                <Table className="table-hover">
-                  <thead>
-                    <tr>
-                      <th className="border-0">ID</th>
-                      <th className="border-0">Name</th>
-                      <th className="border-0">Salary</th>
-                      <th className="border-0">Country</th>
-                      <th className="border-0">City</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Dakota Rice</td>
-                      <td>$36,738</td>
-                      <td>Niger</td>
-                      <td>Oud-Turnhout</td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Minerva Hooper</td>
-                      <td>$23,789</td>
-                      <td>Curaçao</td>
-                      <td>Sinaai-Waas</td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Sage Rodriguez</td>
-                      <td>$56,142</td>
-                      <td>Netherlands</td>
-                      <td>Baileux</td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Philip Chaney</td>
-                      <td>$38,735</td>
-                      <td>Korea, South</td>
-                      <td>Overland Park</td>
-                    </tr>
-                    <tr>
-                      <td>5</td>
-                      <td>Doris Greene</td>
-                      <td>$63,542</td>
-                      <td>Malawi</td>
-                      <td>Feldkirchen in Kärnten</td>
-                    </tr>
-                    <tr>
-                      <td>6</td>
-                      <td>Mason Porter</td>
-                      <td>$78,615</td>
-                      <td>Chile</td>
-                      <td>Gloucester</td>
-                    </tr>
-                  </tbody>
-                </Table>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-      </Container>
-    </>
-  );
-}
+//   useEffect(() => {
+//     loadInitialData();
+//   }, []);
 
-export default TableList;
+//   useEffect(() => {
+//     paginateMembers();
+//   }, [members, currentPage]);
+
+//   const loadInitialData = async () => {
+//     try {
+//       const response = await fetch("/Moderateur.json");
+//       if (!response.ok) {
+//         throw new Error("Failed to load JSON data");
+//       }
+//       const data = await response.json();
+//       setMembers(data);
+//     } catch (error) {
+//       console.error("Error loading initial data:", error);
+//     }
+//   };
+
+//   const paginateMembers = () => {
+//     const startIndex = (currentPage - 1) * membersPerPage;
+//     const endIndex = startIndex + membersPerPage;
+//     setPaginatedMembers(members.slice(startIndex, endIndex));
+//   };
+
+//   const handlePrevPage = () => {
+//     if (currentPage > 1) {
+//       setCurrentPage(currentPage - 1);
+//     }
+//   };
+
+//   const handleNextPage = () => {
+//     const totalPages = Math.ceil(members.length / membersPerPage);
+//     if (currentPage < totalPages) {
+//       setCurrentPage(currentPage + 1);
+//     }
+//   };
+
+//   const handleAddMember = async (newMember) => {
+//     try {
+//       const response = await fetch("http://localhost:8081/api/moderator", {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(newMember),
+//       });
+
+//       if (!response.ok) {
+//         throw new Error("Failed to add member");
+//       }
+
+//       const addedMember = await response.json();
+//       setMembers([...members, addedMember]);
+//     } catch (error) {
+//       console.error("Error adding member:", error);
+//     }
+//   };
+
+//   const handleUpdateMember = async (updatedMember) => {
+//     try {
+//       const response = await fetch(`http://localhost:8081/api/moderator/${updatedMember.id}`, {
+//         method: "PUT",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(updatedMember),
+//       });
+
+//       if (!response.ok) {
+//         throw new Error("Failed to update member");
+//       }
+
+//       setMembers(members.map((member) => (member.id === updatedMember.id ? updatedMember : member)));
+//     } catch (error) {
+//       console.error("Error updating member:", error);
+//     }
+//   };
+
+//   const handleDeleteMember = async (id) => {
+//     try {
+//       const response = await fetch(`http://localhost:8081/api/moderator/${id}`, {
+//         method: "DELETE",
+//       });
+
+//       if (!response.ok) {
+//         throw new Error("Failed to delete member");
+//       }
+
+//       setMembers(members.filter((member) => member.id !== id));
+//     } catch (error) {
+//       console.error("Error deleting member:", error);
+//     }
+//   };
+
+//   return (
+//     <Container fluid>
+//       <Row>
+//         <Col md="12">
+//           <Card className="strpied-tabled-with-hover">
+//             <Card.Header>
+//               <Card.Title as="h4">CRUD Table with Pagination</Card.Title>
+//               <Button className="btn btn-primary" onClick={() => handleAddMember(/* pass the new member data here */)}>
+//                 Add New Member
+//               </Button>
+//             </Card.Header>
+//             <Card.Body className="table-full-width table-responsive px-0">
+//               <Table className="table-hover table-striped">
+//                 <thead>
+//                   <tr>
+//                     <th>ID</th>
+//                     <th>Name</th>
+//                     <th>Phone Number</th>
+//                     <th>CIN Number</th>
+//                     <th>City</th>
+//                     <th>Actions</th>
+//                   </tr>
+//                 </thead>
+//                 <tbody>
+//                   {paginatedMembers.map((member) => (
+//                     <tr key={member.id}>
+//                       <td>{member.id}</td>
+//                       <td>{member.name}</td>
+//                       <td>{member.phoneNumber}</td>
+//                       <td>{member.idCardNumber}</td>
+//                       <td>{member.city}</td>
+//                       <td>
+//                         <Button className="btn btn-warning" onClick={() => handleUpdateMember(member)}>
+//                           Update
+//                         </Button>
+//                         <Button className="btn btn-danger" onClick={() => handleDeleteMember(member.id)}>
+//                           Delete
+//                         </Button>
+//                       </td>
+//                     </tr>
+//                   ))}
+//                 </tbody>
+//               </Table>
+//               <div className="pagination">
+//                 <Button onClick={handlePrevPage} disabled={currentPage === 1}>
+//                   Previous
+//                 </Button>
+//                 <span>Page {currentPage}</span>
+//                 <Button onClick={handleNextPage} disabled={currentPage >= Math.ceil(members.length / membersPerPage)}>
+//                   Next
+//                 </Button>
+//               </div>
+//             </Card.Body>
+//           </Card>
+//         </Col>
+//       </Row>
+//     </Container>
+//   );
+// }
+
+// export default TableList;
