@@ -1,4 +1,3 @@
-// src/routes.js
 import Dashboard from "views/Dashboard.js";
 import UserProfile from "views/UserProfile.js";
 import TableList from "views/TableList.js";
@@ -6,8 +5,10 @@ import Appointment from "views/Appointment.js";
 import Maps from "views/Maps.js";
 import Notifications from "views/Notifications.js";
 import Upgrade from "views/Upgrade.js";
+import Crudmode from "views/Crudmode.js";
+import Crudcentre from "views/Crudcentre";
 
-const dashboardRoutes = [
+ const dashboardRoutes = [
   {
     upgrade: true,
     path: "/upgrade",
@@ -35,7 +36,21 @@ const dashboardRoutes = [
     name: "Table List",
     icon: "nc-icon nc-notes",
     component: TableList,
-    layout: "/admin"
+    layout: "/admin",
+    subRoutes: [
+      {
+        path: "/crudmode",
+        name: "CRUD Modérateur",
+        component: Crudmode, 
+        layout: "/admin",
+      },
+      {
+        path: "/crudcentre",
+        name: "CRUD Centre",
+        component: Crudcentre, 
+        layout: "/admin",
+      },
+    ],
   },
   {
     path: "/appointment",

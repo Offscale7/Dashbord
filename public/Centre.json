@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "Centre de Don de Sang Marrakech",
+      "address": "123 Rue de la Liberté",
+      "phoneNumber": "+212 5244-56789",
+      "city": "Marrakech"
+    },
+    {
+      "id": 2,
+      "name": "Centre de Don de Sang Casablanca",
+      "address": "456 Avenue des Fleurs",
+      "phoneNumber": "+212 5222-34567",
+      "city": "Casablanca"
+    },
+    {
+      "id": 3,
+      "name": "Centre de Don de Sang Rabat",
+      "address": "789 Boulevard de la Paix",
+      "phoneNumber": "+212 5377-89012",
+      "city": "Rabat"
+    },
+    {
+      "id": 4,
+      "name": "Centre de Don de Sang Tanger",
+      "address": "321 Rue des Roses",
+      "phoneNumber": "+212 5393-45678",
+      "city": "Tanger"
+    },
+    {
+      "id": 5,
+      "name": "Centre de Don de Sang Fès",
+      "address": "654 Avenue des Arbres",
+      "phoneNumber": "+212 5356-78901",
+      "city": "Fès"
+    },
+    {
+      "id": 6,
+      "name": "Centre de Don de Sang Agadir",
+      "address": "987 Rue des Palmiers",
+      "phoneNumber": "+212 5288-12345",
+      "city": "Agadir"
+    },
+    {
+      "id": 7,
+      "name": "Centre de Don de Sang Oujda",
+      "address": "159 Rue des Martyrs",
+      "phoneNumber": "+212 5365-67890",
+      "city": "Oujda"
+    },
+    {
+      "id": 8,
+      "name": "Centre de Don de Sang Meknès",
+      "address": "753 Boulevard du 11 Janvier",
+      "phoneNumber": "+212 5355-67890",
+      "city": "Meknès"
+    },
+    {
+      "id": 9,
+      "name": "Centre de Don de Sang Tétouan",
+      "address": "258 Avenue Mohamed V",
+      "phoneNumber": "+212 5397-12345",
+      "city": "Tétouan"
+    },
+    {
+      "id": 10,
+      "name": "Centre de Don de Sang Safi",
+      "address": "852 Rue de l'Océan",
+      "phoneNumber": "+212 5246-78901",
+      "city": "Safi"
+    },
+    {
+      "id": 11,
+      "name": "Centre de Don de Sang El Jadida",
+      "address": "963 Boulevard Hassan II",
+      "phoneNumber": "+212 5233-45678",
+      "city": "El Jadida"
+    },
+    {
+      "id": 12,
+      "name": "Centre de Don de Sang Nador",
+      "address": "147 Rue de la Gare",
+      "phoneNumber": "+212 5363-56789",
+      "city": "Nador"
+    },
+    {
+      "id": 13,
+      "name": "Centre de Don de Sang Kenitra",
+      "address": "369 Avenue de la Liberté",
+      "phoneNumber": "+212 5373-78901",
+      "city": "Kenitra"
+    },
+    {
+      "id": 14,
+      "name": "Centre de Don de Sang Mohammedia",
+      "address": "741 Boulevard Mohamed Zerktouni",
+      "phoneNumber": "+212 5233-67890",
+      "city": "Mohammedia"
+    },
+    {
+      "id": 15,
+      "name": "Centre de Don de Sang Khouribga",
+      "address": "852 Avenue des Phosphates",
+      "phoneNumber": "+212 5234-56789",
+      "city": "Khouribga"
+    },
+    {
+      "id": 16,
+      "name": "Centre de Don de Sang Settat",
+      "address": "963 Rue des Écoles",
+      "phoneNumber": "+212 5237-89012",
+      "city": "Settat"
+    },
+    {
+      "id": 17,
+      "name": "Centre de Don de Sang Ouarzazate",
+      "address": "147 Avenue des Kasbahs",
+      "phoneNumber": "+212 5248-67890",
+      "city": "Ouarzazate"
+    },
+    {
+      "id": 18,
+      "name": "Centre de Don de Sang Essaouira",
+      "address": "258 Rue de la Plage",
+      "phoneNumber": "+212 5244-12345",
+      "city": "Essaouira"
+    },
+    {
+      "id": 19,
+      "name": "Centre de Don de Sang Laâyoune",
+      "address": "369 Avenue de l'Indépendance",
+      "phoneNumber": "+212 5289-45678",
+      "city": "Laâyoune"
+    },
+    {
+      "id": 20,
+      "name": "Centre de Don de Sang Dakhla",
+      "address": "741 Rue de la Liberté",
+      "phoneNumber": "+212 5288-67890",
+      "city": "Dakhla"
+    }
+  ]
+  

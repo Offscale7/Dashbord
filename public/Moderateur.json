@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "Alice Johnson", "phoneNumber": "123-456-7890", "idCardNumber": "CIN123456", "city": "New York" },
+    { "id": 2, "name": "Bob Smith", "phoneNumber": "234-567-8901", "idCardNumber": "CIN234567", "city": "Los Angeles" },
+    { "id": 3, "name": "Charlie Davis", "phoneNumber": "345-678-9012", "idCardNumber": "CIN345678", "city": "Toronto" },
+    { "id": 4, "name": "Diana Miller", "phoneNumber": "456-789-0123", "idCardNumber": "CIN456789", "city": "Vancouver" },
+    { "id": 5, "name": "Eva Brown", "phoneNumber": "567-890-1234", "idCardNumber": "CIN567890", "city": "London" },
+    { "id": 6, "name": "Frank Wilson", "phoneNumber": "678-901-2345", "idCardNumber": "CIN678901", "city": "Manchester" },
+    { "id": 7, "name": "Grace Lee", "phoneNumber": "789-012-3456", "idCardNumber": "CIN789012", "city": "Sydney" },
+    { "id": 8, "name": "Henry Clark", "phoneNumber": "890-123-4567", "idCardNumber": "CIN890123", "city": "Melbourne" },
+    { "id": 9, "name": "Ivy Martinez", "phoneNumber": "901-234-5678", "idCardNumber": "CIN901234", "city": "Berlin" },
+    { "id": 10, "name": "James Rodriguez", "phoneNumber": "012-345-6789", "idCardNumber": "CIN012345", "city": "Munich" },
+    { "id": 11, "name": "Kara Miller", "phoneNumber": "123-456-7891", "idCardNumber": "CIN123457", "city": "San Francisco" },
+    { "id": 12, "name": "Leo Kim", "phoneNumber": "234-567-8902", "idCardNumber": "CIN234568", "city": "Chicago" },
+    { "id": 13, "name": "Mia Lopez", "phoneNumber": "345-678-9013", "idCardNumber": "CIN345679", "city": "Montreal" },
+    { "id": 14, "name": "Nate Scott", "phoneNumber": "456-789-0124", "idCardNumber": "CIN456790", "city": "Ottawa" },
+    { "id": 15, "name": "Olivia Brown", "phoneNumber": "567-890-1235", "idCardNumber": "CIN567891", "city": "Birmingham" },
+    { "id": 16, "name": "Paul Young", "phoneNumber": "678-901-2346", "idCardNumber": "CIN678902", "city": "Glasgow" },
+    { "id": 17, "name": "Quinn Anderson", "phoneNumber": "789-012-3457", "idCardNumber": "CIN789013", "city": "Brisbane" },
+    { "id": 18, "name": "Riley Adams", "phoneNumber": "890-123-4568", "idCardNumber": "CIN890234", "city": "Perth" },
+    { "id": 19, "name": "Sophie Clark", "phoneNumber": "901-234-5679", "idCardNumber": "CIN901345", "city": "Hamburg" },
+    { "id": 20, "name": "Tyler Wright", "phoneNumber": "012-345-6780", "idCardNumber": "CIN012346", "city": "Frankfurt" }
+  ]
+  
